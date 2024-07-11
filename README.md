@@ -1,5 +1,5 @@
 # CreateGlobalMaps
-#//////////////////////////////////////////////////////Global CPCP Precipitation Map////////////////////////////////////////////////////
+#//////////////////////////////////////////////////////Global GPCP Precipitation Map////////////////////////////////////////////////////
 #install required libraries
 # pip install numpy xarray matplotlib cartopy seaborn netCDF4
 import numpy as np
@@ -161,7 +161,7 @@ plt.savefig('SST_plot_asia.png', dpi=300, bbox_inches='tight', transparent=True)
 # Display the plot
 plt.show()
 #/////////////////////////////////////////////////Global Forest Fires///////////////////////////////////////////////////////////////////
-
+#Demo VIIRS data file is available in reopsitory
 #install required libraries
 # pip install numpy xarray matplotlib cartopy seaborn netCDF4
 import pandas as pd
